@@ -3,8 +3,7 @@ module.exports = {
 
   weekday: (date) => {
     const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
-    const index = date.getDay()
-    return days[index]
+    return days[date.getDay()]
   },
 
   snippet: (string, maxlength) => {
