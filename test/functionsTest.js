@@ -24,4 +24,46 @@ describe('Functions', () => {
 
   })
 
+  describe('Snippet', () => {
+
+    it('should do something', () => {
+      let result = snippet(arg1, arg2)
+      assert.equal(result, '')
+    })
+
+    it('should do something)', () => {
+      let result = snippet(arg1, arg2)
+      assert.equal(result, '')
+    })
+
+  })
+
+  describe('NumProps', () => {
+
+    it('should do something', () => {
+      let result = numProps('')
+      assert.equal(result, '')
+    })
+
+    it('should do something)', () => {
+      let result = numProps()
+      assert.equal(result, '')
+    })
+
+  })
+
+  describe('FilterBetween', () => {
+
+    it('should do something', () => {
+      let result = filterBetween('')
+      assert.equal(result, '')
+    })
+
+    it('should do something)', () => {
+      let result = filterBetween()
+      assert.equal(result, '')
+    })
+
+  })
+
 })
