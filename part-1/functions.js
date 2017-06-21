@@ -11,7 +11,7 @@ module.exports = {
   },
 
   numProps: (obj) => {
-
+    return Object.keys(obj).length
   },
 
   filterBetween: () => {

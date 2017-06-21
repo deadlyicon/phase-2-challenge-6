@@ -3,9 +3,9 @@
 const assert = require('chai').assert
 const app = require('../part-1/functions')
 const weekday = require('../part-1/functions').weekday
-// const snippet = require('../part-1/functions/').snippet
-// const numProps = require('../part-1/functions/').numProps
-// const filterBetween = require('../part-1/functions/').filterBetween
+const snippet = require('../part-1/functions').snippet
+const numProps = require('../part-1/functions').numProps
+const filterBetween = require('../part-1/functions').filterBetween
 
 
 describe('Functions', () => {
@@ -26,9 +26,9 @@ describe('Functions', () => {
 
   describe('Snippet', () => {
 
-    it('should do something', () => {
-      let result = snippet(arg1, arg2)
-      assert.equal(result, '')
+    it('should shorten a string to a given maxlength', () => {
+      let result = snippet('My string', 7)
+      assert.equal(result, 'My stri')
     })
 
     it('should do something)', () => {
@@ -40,9 +40,13 @@ describe('Functions', () => {
 
   describe('NumProps', () => {
 
-    it('should do something', () => {
-      let result = numProps('')
-      assert.equal(result, '')
+    it('should return the number of properties of the passed object', () => {
+      let result = numProps({
+        prop1: "val1",
+        prop2: "val2",
+        prop3: "val3"
+      })
+      assert.equal(result, 3)
     })
 
     it('should do something)', () => {
