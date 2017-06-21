@@ -1,9 +1,9 @@
 - [X] When you run a command in the terminal, where does BASH look for that command?
-BASH looks for the command within the existing/native Shell commands.
+* BASH looks for the command within the existing/native Shell commands.
 
 - [X] On a UNIX computer, how do you stop a running process?
-In UNIX you can kill a running process by sending it a kILL command.
-kill –N PID (You pass it the process ID)
+* In UNIX you can kill a running process by sending it a kILL command.
+* kill –N PID (You pass it the process ID)
 
 - [X] What packages do you have installed via homebrew?
 Here's the output of my 'brew list':
@@ -21,25 +21,25 @@ fontconfig		libpng			python3
 freetype		libtiff			qt
 
 - [X] On a UNIX computer, how do you find the process id of a running process?
-You can do so by running 'ps' and grepping for the particular process.
-$ps ax | grep <process>
+* You can do so by running 'ps' and grepping for the particular process.
+* $ps ax | grep <process>
 
 - [X] In a terminal, what does control-c do?
-control-c kills the current process.
+* control-c kills the current process.
 
 - [X] In a terminal, what does control-a do?
-control-a brings the cursor at the beginning of the line.
+* control-a brings the cursor at the beginning of the line.
 
 - [X] In a terminal, what does control-e do?
-control-e brings the cursor at the end of the line
+* control-e brings the cursor at the end of the line
 
 - [X] What keyboard shortcut do you use to split the screen in your editor?
-In the Atom editor it's "command + k"
+* In the Atom editor it's "command + k"
 
 - [X] What keyboard shortcut do you use to split the screen in your terminal?
 
 - [X] When a terminal command completes, how can you tell if it was successful or not?
-The cursor should return to the next prompt.
+* The cursor should return to the next prompt.
 
 - [X] What does your ~/.gitconfig have in it? (paste the whole file here)
 ```
@@ -132,10 +132,10 @@ And you were in the linkedin-for-dancers folder. What command would you use to c
 $cd ../pinterest-for-dogs
 
 - [X] What keyboard shortcut do you use, in your editor, when you want to open a specific file?
-command + space
+* command + space
 
 - [X] What files or folders do you want all git repositories to ignore?
-The files listed in the .gitignore
+* The files listed in the .gitignore
 
 - [X] What is the main difference between == and === in JavaScript?
-== checks for value equality while === checks for value and type equality (deep equal)
+* == checks for value equality while === checks for value and type equality (deep equal)
