@@ -138,4 +138,4 @@ command + space
 The files listed in the .gitignore
 
 [X] What is the main difference between == and === in JavaScript?
-== checks for value equality while === checks for value and type equality.
+== checks for value equality while === checks for value and type equality (deep equal)
