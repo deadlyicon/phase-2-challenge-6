@@ -4,7 +4,7 @@
   "description": "Phase 2 Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "chai": "^4.0.2",
+    "express": "^4.15.3",
     "mocha": "^3.4.2"
   }
 }
