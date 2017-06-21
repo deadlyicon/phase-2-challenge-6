@@ -4,7 +4,7 @@
   "description": "Phase 2 Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,14 @@
   },
   "homepage": "https://github.com/diop/phase-2-challenge#readme",
   "devDependencies": {
-    "jest": "^20.0.4"
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
   }
 }
