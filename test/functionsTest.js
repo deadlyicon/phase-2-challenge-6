@@ -22,6 +22,11 @@ describe('Functions', () => {
       assert.equal(result, 'Mon')
     })
 
+    it('should check for input validity', () => {
+      let result = weekday(new Date())
+      assert.equal(result, '')
+    })
+
   })
 
   describe('Snippet', () => {
@@ -31,7 +36,7 @@ describe('Functions', () => {
       assert.equal(result, 'My stri')
     })
 
-    it('should do something)', () => {
+    it('should check for input validity', () => {
       let result = snippet(arg1, arg2)
       assert.equal(result, '')
     })
@@ -49,7 +54,7 @@ describe('Functions', () => {
       assert.equal(result, 3)
     })
 
-    it('should do something', () => {
+    it('should check for input validity', () => {
       let result = numProps()
       assert.equal(result, '')
     })
@@ -67,6 +72,11 @@ describe('Functions', () => {
     it('should return a filetered array [5, 6, 7]', () => {
       let result = filterBetween(arr, 5, 10)
       assert.deepEqual(result, [5, 6, 7])
+    })
+
+    it('should check input validity', () => {
+      let result = filterBetween()
+      assert.equal(result, '')
     })
 
   })
