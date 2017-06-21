@@ -60,13 +60,13 @@ describe('Functions', () => {
     let arr = [1, 2, 3, 4, 5, 6, 7]
 
     it('should return a filetered array [3, 4, 5, 6]', () => {
-      let result = filterBetween(arr, 3, 6) // => [3, 4, 5, 6]
-      assert.equal(result, [3, 4, 5, 6])
+      let result = filterBetween(arr, 3, 6)
+      assert.deepEqual(result, [3, 4, 5, 6])
     })
 
     it('should return a filetered array [5, 6, 7]', () => {
-      let result = filterBetween(arr, 5, 10) // => [5, 6, 7]
-      assert.equal(result, [5, 6, 7])
+      let result = filterBetween(arr, 5, 10)
+      assert.deepEqual(result, [5, 6, 7])
     })
 
   })

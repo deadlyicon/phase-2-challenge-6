@@ -14,9 +14,8 @@ module.exports = {
     return Object.keys(obj).length
   },
 
-  filterBetween: () => {
-
-
+  filterBetween: (arr, min, max) => {
+    return arr.slice(min - 1, max)
   }
 
 }
